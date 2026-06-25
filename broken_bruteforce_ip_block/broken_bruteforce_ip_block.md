@@ -61,7 +61,7 @@ By interleaving a successful `wiener` login after every **2 failed attempts** fo
 | Request ordering | Fixed sequential | Fully scriptable |
 | Speed | Rate-limited (Community) | High speed |
 | Custom logic | ❌ No | ✅ Yes |
-| Interleaving requests | ❌ Not possible | ✅ Yes |
+| Interleaving requests | ❌ Too slow | ✅ Yes |
 
 Standard Intruder cannot interleave two different request types in a custom pattern — Turbo Intruder was the right tool here.
 
